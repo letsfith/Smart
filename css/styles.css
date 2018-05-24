@@ -1,7 +1,7 @@
 html, body{
 	font-size:16px;
 	color: green;
-	background-color: #063647; 
+	background-color: white; 
 }
 /* Links */
 a {
@@ -219,7 +219,7 @@ ol{
 }
 
 .verslag{
-	background-color: #052D3D;
+	background-color: red;
 	color: #cacecd;
 	text-align: center;
 	padding-left: 21%;
