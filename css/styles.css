@@ -14,7 +14,7 @@ a:hover {
 }
 
 /* Current link */
-body.ahome a.ahome, body.aabout a.aabout, body.aconcurentenanalyse a.aconcurentenanalyse, body.asegmentatie a.asegmentatie, body.adoelgroep a.adoelgroep, body.apva a.apva{
+body.ahome a.ahome, body.aabout a.aabout, body.aconcurentenanalyse a.aconcurentenanalyse, body.asegmentatie a.asegmentatie, body.adoelgroep a.adoelgroep, body.apva a.apva, body.aenquete a.aenquete{
 	box-shadow: 0px 3px 0px #00d1b2;
 }
 
@@ -126,7 +126,7 @@ ol{
 
 .gekozen-list{
 	padding-left:42%;
-	padding-right: 22%;
+	padding-right: 0%;
 }
 
 /* Dropdown code */
@@ -190,10 +190,19 @@ ol{
 	padding-right: 22%;
 }
 
-.column_pva {
+.column-2 {
     float: left;
     width: 50%;
     padding: 0px;
+}
+.column-21 {
+    float: left;
+    width: 48%;
+    padding: 0px;
+    border: 1px solid #dfdfdf;
+   /* margin-left: 5px;
+    margin-right: 5px; */
+    margin: 5px;
 }
 .row:after {
     content: "";
@@ -202,7 +211,7 @@ ol{
 }
 
 /* css voor grafieken links */
-.column_VierLinks{
+.column-4{
 	float: left;
     width: 25%;
     padding: 10px;
@@ -216,6 +225,15 @@ ol{
 	padding-left: 21%;
 	padding-right: 21%;
 }
+
+.destep{
+  text-align: center;
+  padding-left: 21%;
+  padding-right :21%;
+  
+}
+
+
 
 .Pva_subvragen{
 	text-align: left;
@@ -231,14 +249,24 @@ ol{
 
 
 
-/* Opmaak voor de tabel van de planning */
+/* Opmaak voor de tabel */
+.tables{
+	background-color: #052D3D;
+	padding-left: 10%;
+	padding-right: 10%
+}
 
+.tables1{
+	/*background-color: #052D3D;*/
+	padding-left: 10%;
+	padding-right: 10%
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 80%;
-	margin-left:10%; 
-    margin-right:10%;
+	margin-left:auto; 
+    margin-right:auto;
 }
 
 td, th {
@@ -253,6 +281,9 @@ tr:nth-child(even) {
     background-color: #063647;
 }
 
+tr:nth-child(odd) {
+    background-color: #052D3D;
+}
 #centerMe{
 	text-align: center;
 }
@@ -268,7 +299,31 @@ tr:nth-child(even) {
 .amcharts{
 	box-shadow: 0px 0px 15px #1c1c1c;
 }
+/* Enquete grafieken*/
+.enquete_charts:hover {
+	box-shadow: 0px 0px 15px #1c1c1c;
+}
 
+/* Back to Top Button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: #dfdfdf;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #00d1b2;
+}
 /* Headings  */
 .title	{
 	text-align: center;
